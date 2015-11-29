@@ -1,0 +1,51 @@
+--create as many instance as you expect in application and start them all as close to same time as possible
+
+:SETVAR LOADMETHOD "StageABTables_X3"
+use staging;
+
+UPDATE dbo.tTransferParameters SET RowsToPush = 0;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 50000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 100000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);

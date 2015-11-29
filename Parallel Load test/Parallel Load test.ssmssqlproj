@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Parallel Load test">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BILL764\R2:BILL764\bwunder">
+          <Created>2011-01-07T14:11:14.4844084-07:00</Created>
+          <Type>SQL</Type>
+          <Server>BILL764\R2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Loader1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Loader1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Battery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Battery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="StageABTables_X3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>StageABTables_X3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - SQL2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - SQL2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - SQL3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - SQL3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - SSIS3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - SSIS3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - SSIS2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - SSIS2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - SSIS1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - SSIS1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

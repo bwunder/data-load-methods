@@ -1,0 +1,62 @@
+:SETVAR LOADMETHOD "TVPUpsert"    
+:SETVAR DB "target"
+SET NOCOUNT ON
+GO
+USE $(DB);
+
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 1;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 5;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 50000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 100000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 5;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
+UPDATE dbo.tTransferParameters SET RowsToPush = 1;
+EXEC dbo.$(LOADMETHOD);
+EXEC dbo.$(LOADMETHOD);
