@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "data load methods", "data load methods.ssmssqlproj", "{E9C7AE8A-32DD-4AA5-9DA7-D72353112A45}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Parallel Load test", "..\Parallel Load test\Parallel Load test.ssmssqlproj", "{A970412E-F9A7-4B2E-9A79-851C8AE0A627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9C7AE8A-32DD-4AA5-9DA7-D72353112A45}.Default|Default.ActiveCfg = Default
+		{A970412E-F9A7-4B2E-9A79-851C8AE0A627}.Default|Default.ActiveCfg = Default
+		{E3EAEEF5-D0CA-41C7-BECF-FAEF2D19E6F7}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

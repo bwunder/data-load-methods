@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="data load methods">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BILL764\ATER2:BILL764\bwunder">
+          <Created>2011-03-03T08:01:49.5664022-07:00</Created>
+          <Type>SQL</Type>
+          <Server>BILL764\ATER2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="BILL764\R2:BILL764\bwunder">
+          <Created>2011-01-07T13:59:00.0643655-07:00</Created>
+          <Type>SQL</Type>
+          <Server>BILL764\R2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1 - target.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1 - target.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2 - staging.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2 - staging.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3 - initiator.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3 - initiator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABCreateJob.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABCreateJob.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TestBattery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TestBattery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Broker utilities.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Broker utilities.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cleanup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cleanup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Datagram tester.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Datagram tester.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Objects dropped from BILL_VU to correct table type.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Objects dropped from BILL_VU to correct table type.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UnitTester.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UnitTester.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLTestCycle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLTestCycle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - FileBCP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>test - FileBCP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - FileBulkInsert.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>test - FileBulkInsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RowGenerateProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RowGenerateProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - RowPrepared.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>test - RowPrepared.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - RowSendBinary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - RowSendBinary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - RowSendXML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - RowSendXML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - RowHeap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - RowHeap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="utility.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>utility.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSISTestCycle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSISTestCycle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ABGenerateProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ABGenerateProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - FileBCPHeap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - FileBCPHeap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - FileBulkInsertHeap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - FileBulkInsertHeap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TVPGenerateProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\ATER2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\ATER2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TVPGenerateProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - TVPSendBinary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - TVPSendBinary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - TVPSendXML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - TVPSendXML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - TVPStageInto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - TVPStageInto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="test - TVPHeap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>test - TVPHeap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TransferParameters.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BILL764\R2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BILL764\R2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TransferParameters.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="DeadLockGraph2.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DeadLockGraph2.xml</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

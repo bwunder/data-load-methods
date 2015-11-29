@@ -1,0 +1,153 @@
+﻿<deadlock>
+  <victim-list>
+    <victimProcess id="process13fdc8" />
+    <victimProcess id="process80a722c8" />
+  </victim-list>
+  <process-list>
+    <process id="process13fdc8" taskpriority="0" logused="0" waitresource="OBJECT: 5:405576483:0 " waittime="4446" ownerId="300525" transactionname="user_transaction" lasttranstarted="2011-01-07T20:22:25.223" XDES="0x809a03b0" lockMode="S" schedulerid="1" kpid="3648" status="suspended" spid="56" sbid="0" ecid="0" priority="0" trancount="2" lastbatchstarted="2011-01-07T20:22:24.823" lastbatchcompleted="2011-01-07T20:22:24.820" clientapp="Microsoft SQL Server Management Studio - Query" hostname="BILL764" hostpid="7448" loginname="BILL764\bwunder" isolationlevel="read committed (2)" xactid="300525" currentdb="5" lockTimeout="4294967295" clientoption1="673185824" clientoption2="128056">
+      <executionStack>
+        <frame procname="" line="83" stmtstart="4248" stmtend="4758" sqlhandle="0x0300050098b5d43320bb4f01649e00000100000000000000" />
+        <frame procname="" line="4" stmtstart="142" stmtend="182" sqlhandle="0x02000000042f17239161fcbcfe43ff51a99908ac5ef7caa9" />
+      </executionStack>
+      <inputbuf>
+USE target;
+
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 1;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 5;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 50000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET   </inputbuf>
+    </process>
+    <process id="process80a722c8" taskpriority="0" logused="0" waitresource="OBJECT: 5:405576483:0 " waittime="5086" ownerId="299085" transactionname="user_transaction" lasttranstarted="2011-01-07T20:22:24.587" XDES="0x894bf620" lockMode="S" schedulerid="1" kpid="5204" status="suspended" spid="54" sbid="0" ecid="0" priority="0" trancount="2" lastbatchstarted="2011-01-07T20:22:21.557" lastbatchcompleted="2011-01-07T20:22:21.553" clientapp="Microsoft SQL Server Management Studio - Query" hostname="BILL764" hostpid="7448" loginname="BILL764\bwunder" isolationlevel="read committed (2)" xactid="299085" currentdb="5" lockTimeout="4294967295" clientoption1="673187936" clientoption2="390200">
+      <executionStack>
+        <frame procname="" line="83" stmtstart="4248" stmtend="4758" sqlhandle="0x0300050098b5d43320bb4f01649e00000100000000000000" />
+        <frame procname="" line="11" stmtstart="446" stmtend="494" sqlhandle="0x02000000dfdd6b07a843a1eddd1f03ec3faaf4ed92f7ea33" />
+      </executionStack>
+      <inputbuf>
+
+IF 'True' = 'True'
+
+  BEGIN
+
+    EXEC dbo.pGetIndexDetails 'SAMPLED'
+
+    UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 1;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 5;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+    EXEC dbo.TVPUpsert;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+    EXEC dbo.TVPUpsert;
+    UPDATE dbo.tTransferP   </inputbuf>
+    </process>
+    <process id="process3e59dc8" taskpriority="0" logused="381168" waitresource="OBJECT: 5:533576939:0 " waittime="4860" ownerId="296768" transactionname="user_transaction" lasttranstarted="2011-01-07T20:22:23.593" XDES="0x894b7950" lockMode="IX" schedulerid="2" kpid="7968" status="suspended" spid="55" sbid="0" ecid="0" priority="0" trancount="3" lastbatchstarted="2011-01-07T20:22:23.080" lastbatchcompleted="2011-01-07T20:22:23.080" clientapp="Microsoft SQL Server Management Studio - Query" hostname="BILL764" hostpid="7448" loginname="BILL764\bwunder" isolationlevel="read committed (2)" xactid="296768" currentdb="5" lockTimeout="4294967295" clientoption1="673185824" clientoption2="128056">
+      <executionStack>
+        <frame procname="" line="119" stmtstart="6394" stmtend="7564" sqlhandle="0x03000500d093332c8224e800649e00000100000000000000" />
+        <frame procname="" line="90" stmtstart="4760" stmtend="5514" sqlhandle="0x0300050098b5d43320bb4f01649e00000100000000000000" />
+        <frame procname="" line="4" stmtstart="142" stmtend="182" sqlhandle="0x02000000042f17239161fcbcfe43ff51a99908ac5ef7caa9" />
+      </executionStack>
+      <inputbuf>
+USE target;
+
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 1;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 5;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 10;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 50;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 100;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 500;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 1000;
+EXEC dbo.TVPUpsert;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 5000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 10000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET RowsToPush = 50000;
+EXEC dbo.TVPUpsert;
+UPDATE dbo.tTransferParameters SET   </inputbuf>
+    </process>
+  </process-list>
+  <resource-list>
+    <objectlock lockPartition="0" objid="405576483" subresource="FULL" dbid="5" objectname="" id="lockab002a80" mode="SIX" associatedObjectId="405576483">
+      <owner-list>
+        <owner id="process3e59dc8" mode="SIX" />
+      </owner-list>
+      <waiter-list>
+        <waiter id="process13fdc8" mode="S" requestType="convert" />
+      </waiter-list>
+    </objectlock>
+    <objectlock lockPartition="0" objid="405576483" subresource="FULL" dbid="5" objectname="" id="lockab002a80" mode="SIX" associatedObjectId="405576483">
+      <owner-list>
+        <owner id="process3e59dc8" mode="SIX" />
+      </owner-list>
+      <waiter-list>
+        <waiter id="process80a722c8" mode="S" requestType="convert" />
+      </waiter-list>
+    </objectlock>
+    <objectlock lockPartition="0" objid="533576939" subresource="FULL" dbid="5" objectname="" id="locka42a8680" mode="S" associatedObjectId="533576939">
+      <owner-list>
+        <owner id="process80a722c8" mode="S" />
+      </owner-list>
+      <waiter-list>
+        <waiter id="process3e59dc8" mode="IX" requestType="convert" />
+      </waiter-list>
+    </objectlock>
+  </resource-list>
+</deadlock>
